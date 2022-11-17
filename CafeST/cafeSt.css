@@ -3,8 +3,13 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
 }
-section, nav{
-    margin: 5px;
+a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor:grab;
+}
+nav{
+    margin-top: 20px;
 }
 nav span{
     border: solid rgb(255, 255, 255) 2px;
@@ -16,6 +21,9 @@ nav span{
 }
 nav a{
     color: aliceblue;
+}
+section{
+    margin: 5px;
 }
 #header1{
     border: solid black 2px;
@@ -29,21 +37,17 @@ nav a{
     width: 300px;
     float: right;
 }
-footer{
-    color: white;
-    background-image: linear-gradient(#48371c, #231709);
-    border: #231709 solid 2px;
-}
+
 table, td{
     text-align: justify;
     border: 1px solid black;
     width: 700px;
     border-collapse: collapse;
 }
-a{
-    text-decoration: none;
+#tHead{
+    background-color: rgb(125, 189, 95, 0.85);
+    text-align: center;
     font-weight: bold;
-    cursor:grab;
 }
 .red {
     color: red;
@@ -69,11 +73,7 @@ a{
 #linkZ{
     font-size: small;
 }
-#tHead{
-    background-color: rgb(125, 189, 95, 0.85);
-    text-align: center;
-    font-weight: bold;
-}
+
 #header2{
     text-align: center;
     font-size: 18px;
@@ -92,11 +92,40 @@ a{
 }
 #art3 img{
     width: 75px;
+    margin-bottom: -25px;
 }
-#liRed{
+#art2 > ol > #liRed{
     color: red;
+    font-weight: bold;
 }
+ol{
+    list-style-type: upper-alpha;
+}
+.noRightB{
+    border-right: none;
+}
+.noLeftB{
+    border-left: none;
+}
+td{
+    background-color: white;
+}
+.ito{
+    font-style: italic;
+}
+footer{
+    color: white;
+    background-image: linear-gradient(#48371c, #231709);
+    border: #231709 solid 2px;
+}
+/* *{
+    box-sizing: border-box; ajusta o width, descontando tudo que tiver, sendo padding ou margin.
+} */
+
 /* 520 passagem
 400 comida
 800 entreterimento */
+
+
+
 
