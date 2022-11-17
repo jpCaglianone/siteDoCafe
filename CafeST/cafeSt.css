@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+section, nav{
+    margin: 5px;
+}
+nav span{
+    border: solid rgb(255, 255, 255) 2px;
+    padding-bottom: 30px ;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav a{
+    color: aliceblue;
+}
+#header1{
+    border: solid black 2px;
+    font-size: 20px;
+    background-image: linear-gradient(#48371c, #231709);
+    color: white;
+    padding: 7px;
+    height: 230px;
+}
+#header1 img{
+    width: 300px;
+    float: right;
+}
+footer{
+    color: white;
+    background-image: linear-gradient(#48371c, #231709);
+    border: #231709 solid 2px;
+}
+table, td{
+    text-align: justify;
+    border: 1px solid black;
+    width: 700px;
+    border-collapse: collapse;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor:grab;
+}
+.red {
+    color: red;
+}
+.strong{
+    font-weight: bold;
+}
+.bege{
+    background-color: #e7e755c9;
+    text-align: center;
+}
+.middleNav{
+    border-left: none ;
+    border-right: none ;
+}
+#cadastrar{
+    border-radius: 10px;
+    border: 4px solid orange;
+    padding: 10px;
+    color: green;
+    text-decoration-style: none;
+}
+#linkZ{
+    font-size: small;
+}
+#tHead{
+    background-color: rgb(125, 189, 95, 0.85);
+    text-align: center;
+    font-weight: bold;
+}
+#header2{
+    text-align: center;
+    font-size: 18px;
+}
+#header2 p{
+    font-size: 20px;
+}
+#art1 p, #art2 li{
+    color: rgb(42, 113, 42);
+}
+#art2{
+    border-top: solid black 1px;
+}
+#art1 p{
+    text-align: justify;
+}
+#art3 img{
+    width: 75px;
+}
+#liRed{
+    color: red;
+}
+/* 520 passagem
+400 comida
+800 entreterimento */
+
