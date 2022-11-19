@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(200, 200, 200);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    cursor:grab;
+}
+nav li{
+    display: inline;
+    border: solid rgb(255, 255, 255) 2px;
+    padding-bottom: 30px ;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: -8px ;
+}
+
+ nav{
+    margin-top: 50px;
+}
+/*
+nav span{
+    border: solid rgb(255, 255, 255) 2px;
+    padding-bottom: 30px ;
+    padding-left: 40px ;
+    padding-right: 40px ;
+    font-weight: bold;
+    font-size: 20px;
+} */
+nav a{
+    color: aliceblue;
+} 
+section{
+    margin: 5px;
+}
+#header1{
+    border: solid black 2px;
+    font-size: 20px;
+    background-image: linear-gradient(#48371c, #231709);
+    color: white;
+    padding: 7px;
+    height: 230px;
+}
+#header1 img{
+    width: 300px;
+    float: right;
+}
+#art1{
+    margin-top: 50px;
+}
+#art1 p{
+    text-align: justify;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#art1 p, #art2 li{
+    color: rgb(42, 113, 42);
+}
+table, td{
+    text-align: justify;
+    border: 1px solid black;
+    width: 700px;
+    border-collapse: collapse;
+}
+#tHead{
+    background-color: rgb(125, 189, 95, 0.85);
+    text-align: center;
+    font-weight: bold;
+}
+.red {
+    color: red;
+}
+.strong{
+    font-weight: bold;
+}
+.bege{
+    background-color: #e7e755c9;
+    text-align: center;
+}
+.middleNav{
+    border-left: none ;
+    border-right: none ;
+}
+#cadastrar{
+    border-radius: 10px;
+    border: 4px solid orange;
+    padding: 10px;
+    color: green;
+    text-decoration-style: none;
+}
+#linkZ{
+    font-size: small;
+}
+
+#header2{
+    text-align: center;
+    font-size: 18px;
+}
+#header2 p{
+    font-size: 20px;
+}
+
+#art2{
+    border-top: solid black 1px;
+}
+
+#art3 img{
+    width: 75px;
+    margin-bottom: -25px;
+}
+#art3 p:first-child{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#art2 > ol > #liRed{
+    color: red;
+    font-weight: bold;
+}
+
+ol{
+    list-style-type: upper-alpha;
+}
+.noRightB{
+    border-right: none;
+}
+.noLeftB{
+    border-left: none;
+}
+td{
+    background-color: white;
+}
+.ito{
+    font-style: italic;
+}
+footer{
+    color: white;
+    background-image: linear-gradient(#48371c, #231709);
+    border: #231709 solid 2px;
+}
+#coluna{
+    display: grid;
+    grid-template-areas:
+        '1 2 3';
+    gap: 15px;
+}
+#coluna img{
+    border-radius: 25px;
+}
+#imgCafe{
+    padding: none;
+}
+/* *{
+    box-sizing: border-box; ajusta o width, descontando tudo que tiver, sendo padding ou margin.
+} */
+
+/* 520 passagem
+400 comida
+800 entreterimento */
+
+
+
+
